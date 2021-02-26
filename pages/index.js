@@ -9,7 +9,7 @@ export default function Privacy() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <div className="mx-auto my-auto bg-yellow-50">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 h-screen lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 min-h-screen lg:px-8 lg:flex lg:items-center lg:justify-between">
           <div className="space-y-5">
             <h2 className=" tracking-tight text-gray-900">
               <span className="font-semibold block text-6xl text-yellow-500">
@@ -44,38 +44,69 @@ export default function Privacy() {
 
       {/* 2 */}
       <div className="my-auto bg-yellow-500">
-        <div className="max-w-7xl py-12  h-screen lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <div className="py-8 lg:py-0 lg:px-8 lg:flex lg:items-center lg:justify-between">
           <div className=" px-4 sm:px-6">
             <div className=" tracking-tight text-gray-900 space-y-6">
-              <h2 className="font-semibold text-5xl block">Features</h2>
-              <h2 className=" space-x-4">
-                <span className="font-bold text-3xl">Departure board</span>
-                <span className="font-normal text-3xl">Station dots</span>
-                <span className="font-light text-3xl">Ticket pricing</span>
-                <span className="font-medium text-3xl">Availability</span>
-                <span className="font-normal text-3xl">
+              <div className="flex flex-wrap text-3xl">
+                <div className="font-bold p-2 m-2 bg-yellow-400   rounded-lg">
+                  Departure board
+                </div>
+                <div className="font-normal p-2 m-2 bg-yellow-400   rounded-lg">
+                  Station dots
+                </div>
+                <div className="font-light p-2 m-2 bg-yellow-400   rounded-lg">
+                  Ticket pricing
+                </div>
+                <div className="font-medium p-2 m-2 bg-yellow-400   rounded-lg">
+                  Availability
+                </div>
+                <div className="font-normal p-2 m-2 bg-yellow-400   rounded-lg">
                   More features to come
-                </span>
-                <span className="font-bold text-3xl">Search for trains</span>
-                <span className="font-light text-3xl">Haptics</span>
-                <span className="font-medium text-3xl">
+                </div>
+                <div className="font-bold p-2 m-2 bg-yellow-400   rounded-lg">
+                  Search for trains
+                </div>
+                <div className="font-light p-2 m-2 bg-yellow-400   rounded-lg">
+                  Haptics
+                </div>
+                <div className="font-medium p-2 m-2 bg-yellow-400   rounded-lg">
                   Nearest&nbsp;station
-                </span>
-                <span className="font-normal text-3xl">User friendly</span>
-                <span className="font-semibold text-3xl">
-                  English & Chinese
-                </span>
-                <span className="font-normal text-3xl">SwiftUI</span>
-                <span className="font-light text-3xl">Easy to use</span>
-                <span className="font-medium text-3xl">Frequent updates</span>
-                <span className="font-bold text-3xl">Free</span>
-                <span className="font-medium text-3xl">Ad-free</span>
-              </h2>
-              <div className="space-y-1">
-                <a href="/privacy">
+                </div>
+                <div className="font-normal p-2 m-2 bg-yellow-400   rounded-lg">
+                  User friendly
+                </div>
+                <div className="font-semibold p-2 m-2 bg-yellow-400   rounded-lg">
+                  English
+                </div>
+                <div className="font-medium p-2 m-2 bg-yellow-400   rounded-lg">
+                  Chinese
+                </div>
+                <div className="font-normal p-2 m-2 bg-yellow-400   rounded-lg">
+                  SwiftUI
+                </div>
+                <div className="font-light p-2 m-2 bg-yellow-400   rounded-lg">
+                  Easy to use
+                </div>
+                <div className="font-medium p-2 m-2 bg-yellow-400   rounded-lg">
+                  Frequent updates
+                </div>
+                <div className="font-bold p-2 m-2 bg-yellow-400   rounded-lg">
+                  Free
+                </div>
+                <div className="font-medium p-2 m-2 bg-yellow-400   rounded-lg">
+                  Ad-free
+                </div>
+                <div className="font-light p-2 m-2 bg-yellow-400   rounded-lg">
+                  No tracking
+                </div>
+              </div>
+              <div>
+                <a href="/privacy" className="inline-block">
                   <h4 className="font-light text-base block">Privacy Policy</h4>
                 </a>
-                <a href="/support">
+              </div>
+              <div>
+                <a href="/support" className="inline-block">
                   <h4 className="font-light text-base block">Support</h4>
                 </a>
               </div>
